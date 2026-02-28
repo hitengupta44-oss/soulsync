@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>SoulSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>SoulSync AI</h1>
+    <p class="tagline">AI-powered emotional healing with Raaga & Stories</p>
+
+```
+<div class="card">
+    <input id="textInput" placeholder="How are you feeling today?">
+    <button onclick="analyzeText()">Analyze Mood</button>
+
+    <button class="voice" onclick="recordVoice()">Speak (5 sec)</button>
+
+    <p id="spoken"></p>
+    <h3 id="result"></h3>
+
+    <audio id="musicPlayer" controls></audio>
+</div>
+
+<div class="card">
+    <button onclick="getStory()">Get Healing Story</button>
+    <p id="story"></p>
+    <audio id="storyPlayer" controls></audio>
+</div>
+```
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
